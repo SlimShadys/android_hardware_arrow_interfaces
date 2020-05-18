@@ -23,4 +23,5 @@ interface IFingerprintInscreen extends vendor.lineage.biometrics.fingerprint.ins
     getHbmOnDelay() generates (int32_t delayOn);
     supportsAlwaysOnHBM() generates (bool status);
     switchHbm(bool enabled);
+    noDim() generates (bool status);
 };
